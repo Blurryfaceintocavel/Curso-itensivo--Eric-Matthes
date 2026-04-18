@@ -1,0 +1,21 @@
+for nu in range(1,5):
+  print (nu)
+  
+  #Lista de números
+  
+  n= list(range(1,4))
+  print(n)
+  
+  #especificando valores em range
+  
+  pares= list (range (2,11,2))
+  print (pares)
+  
+  #Com formula
+  
+  quadrados=[]
+for valor in range (1,11):
+    quadrado = valor**2
+    quadrados.append (quadrado)
+print(quadrados)
+  
