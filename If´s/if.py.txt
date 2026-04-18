@@ -1,0 +1,8 @@
+linguagem={
+    'jão': "C",
+    'carlos': 'SQL',
+    'Monica': 'Java',
+}
+  
+for nome, linguaguens in linguagem.items():
+   print(nome.title() + " Linguagem favorita é: " + linguaguens.title())
